@@ -36,6 +36,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
         return new AppViewHolder(viewItem);
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull AppViewHolder holder, int position) {
         Log.i("BIND DATA", "bind date" + position);
@@ -48,7 +49,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
         return applications.size();
     }
 
-    class AppViewHolder extends RecyclerView.ViewHolder {
+    static class AppViewHolder extends RecyclerView.ViewHolder {
 
         public AppViewHolder(@NonNull View itemView) {
             super(itemView);

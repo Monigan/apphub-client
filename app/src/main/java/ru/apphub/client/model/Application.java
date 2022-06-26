@@ -4,7 +4,7 @@ public class Application {
     private String title;
     private String description;
 
-    public Application(String title, String description) {
+    public Application(long id, String title, String description) {
         this.title = title;
         this.description = description;
     }

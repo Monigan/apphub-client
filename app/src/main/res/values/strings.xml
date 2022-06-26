@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Apphub Client</string>
+    <string name="some_appname">Some App Name</string>
+    <string name="main_text">Hello World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bg_app">bg_app</string>
 </resources>
